@@ -1,0 +1,25 @@
+{
+  "name": "coursework",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && electron .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mbsqd/yopdf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mbsqd/yopdf/issues"
+  },
+  "homepage": "https://github.com/Mbsqd/yopdf#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "electron": "^34.2.0"
+  }
+}
